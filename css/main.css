@@ -385,7 +385,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .features__item {
-    flex-basis: calc((100% - 3 * 30px) / 4);
+    flex-basis: calc((100% - 120px) / 4);
     margin-top: 30px;
     margin-left: 30px;
   }
@@ -393,7 +393,7 @@ ul {
 
 @media screen and (min-width: 768px) {
   .features__item {
-    flex-basis: calc((100% - 30px) / 2);
+    flex-basis: calc((100% - 60px) / 2);
     margin-top: 30px;
     margin-left: 30px;
   }
@@ -411,6 +411,7 @@ ul {
 
 .features__list {
   display: flex;
+  flex-wrap: wrap;
   margin-left: -30px;
   margin-top: -30px;
 }

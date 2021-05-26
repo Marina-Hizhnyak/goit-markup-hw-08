@@ -1,6 +1,8 @@
 .activity {
-  padding-top: 94px;
   padding-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 .activity__list {
   display: flex;
@@ -13,10 +15,7 @@
     margin-right: 30px;
   }
 }
-// .list .list-images {
-//   margin-left: auto;
-//   margin-right: auto;
-// }
+
 .activity__icon {
   position: absolute;
   width: 370px;

@@ -55,14 +55,69 @@
             >
           </li>
         </ul>
-        <button class="header__btn">
-          <svg width="40px" height="40px">
-            <use href="./images/symbol-defs.svg#menu"></use>
-            <use href=""></use>
+        <!--Burger-btn-->
+        <button type="button" class="burger__btn" data-menu-button>
+          <svg class="burger__icon" height="40" width="40">
+            <use class="icon-menu" href="./images/symbol-defs.svg#menu"></use>
+            <use class="icon-close" href="./images/symbol-defs.svg#cross"></use>
           </svg>
         </button>
       </div>
     </header>
+
+    <!--Mobile menu-->
+    <div class="mobile-menu" data-menu>
+      <ul class="list mobile-menu__list">
+        <li class="mobile-menu__item">
+          <a
+            href="./index.html"
+            class="link mobile-menu__link mobile-menu__link--current"
+            >Студия</a
+          >
+        </li>
+        <li class="mobile-menu__item">
+          <a href="./portfolio.html" class="link mobile-menu__link"
+            >Портфолио</a
+          >
+        </li>
+        <li class="mobile-menu__item">
+          <a href="" class="link mobile-menu__link">Контакты</a>
+        </li>
+      </ul>
+
+      <div>
+        <ul class="list mobile-menu__contacts">
+          <li class="mobile-menu__item">
+            <a
+              href="tel:+380961111111"
+              class="link mobile-menu__link mobile-menu__contact-tel"
+              >+38 096 111 11 11</a
+            >
+          </li>
+          <li class="mobile-menu__item">
+            <a
+              href="mailto:info@devstudio.com"
+              class="link mobile-menu__link mobile-menu__contact-mail"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+        <ul class="list mobile-menu__socials">
+          <li class="mobile-menu__socials-item">
+            <a href="" class="link mobile-menu__socials-link">Instagram</a>
+          </li>
+          <li class="mobile-menu__socials-item">
+            <a href="" class="link mobile-menu__socials-link">Twitter</a>
+          </li>
+          <li class="mobile-menu__socials-item">
+            <a href="" class="link mobile-menu__socials-link">Facebook</a>
+          </li>
+          <li class="mobile-menu__socials-item">
+            <a href="" class="link mobile-menu__socials-link">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <main>
       <!--Эффективные решения для вашего бизнеса-->
       <!-- <section class="hero">

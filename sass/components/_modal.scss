@@ -24,9 +24,23 @@
   border-radius: 4px;
   background-color: var(--bg-white-color);
   padding: 40px;
+
+  @media screen and (min-width: 480px) {
+    max-width: 450px;
+    height: 609px;
+  }
+
+  @media screen and (max-height: 609px) {
+    top: 0;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (min-width: 1200px) {
+    min-width: 528px;
+  }
 }
 
-.icon-close {
+.icon-close-btn {
   background-color: var(--h1-text-color);
 }
 
@@ -54,6 +68,9 @@
   &:focus + .form__icon {
     fill: var(--accent-text-color);
   }
+  @media screen and (max-width: 1199px) {
+    width: 370px;
+  }
 }
 .form__input-comment {
   width: 448px;
@@ -70,6 +87,9 @@
     border-color: var(--accent-text-color);
     cursor: pointer;
     outline: none;
+  }
+  @media screen and (max-width: 1199px) {
+    width: 370px;
   }
 }
 .form__label {

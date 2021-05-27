@@ -991,7 +991,27 @@ button {
   padding: 40px;
 }
 
-.icon-close {
+@media screen and (min-width: 480px) {
+  .modal {
+    max-width: 450px;
+    height: 609px;
+  }
+}
+
+@media screen and (max-height: 609px) {
+  .modal {
+    top: 0;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 528px;
+  }
+}
+
+.icon-close-btn {
   background-color: var(--h1-text-color);
 }
 
@@ -1020,6 +1040,12 @@ button {
   fill: var(--accent-text-color);
 }
 
+@media screen and (max-width: 1199px) {
+  .form__input {
+    width: 370px;
+  }
+}
+
 .form__input-comment {
   width: 448px;
   height: 120px;
@@ -1035,6 +1061,12 @@ button {
   border-color: var(--accent-text-color);
   cursor: pointer;
   outline: none;
+}
+
+@media screen and (max-width: 1199px) {
+  .form__input-comment {
+    width: 370px;
+  }
 }
 
 .form__label {

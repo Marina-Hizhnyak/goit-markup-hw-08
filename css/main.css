@@ -1023,7 +1023,7 @@ button {
 
 @media screen and (max-width: 767px) {
   .sample-list__card {
-    min-width: 450px;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -1300,6 +1300,7 @@ button {
 
 .form-agree-text {
   display: inline-block;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 767px) {

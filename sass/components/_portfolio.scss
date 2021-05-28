@@ -43,7 +43,7 @@
 }
 .sample-list__card {
   @media screen and (max-width: 767px) {
-    min-width: 450px;
+    max-width: 450px;
     margin-left: auto;
     margin-right: auto;
     &:not(:last-child) {

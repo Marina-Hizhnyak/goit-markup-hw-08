@@ -130,7 +130,7 @@
   color: var(--h1-text-color);
   background-color: var(--bg-dark-color);
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 480px) and (max-width: 1199px) {
     width: 450px;
     margin-bottom: 20px;
   }

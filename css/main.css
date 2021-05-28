@@ -954,7 +954,7 @@ button {
   background-color: var(--bg-dark-color);
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (min-width: 480px) and (max-width: 1199px) {
   .footer__mailing-field {
     width: 450px;
     margin-bottom: 20px;

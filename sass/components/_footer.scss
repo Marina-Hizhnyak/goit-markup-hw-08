@@ -134,6 +134,10 @@
     width: 450px;
     margin-bottom: 20px;
   }
+  @media screen and (max-width: 480px) {
+    width: 300px;
+    margin-bottom: 20px;
+  }
 }
 
 .footer__submit-icon {

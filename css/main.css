@@ -961,6 +961,13 @@ button {
   }
 }
 
+@media screen and (max-width: 480px) {
+  .footer__mailing-field {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+}
+
 .footer__submit-icon {
   position: absolute;
   right: 28px;

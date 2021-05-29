@@ -246,11 +246,18 @@ ul {
 .title {
   justify-content: center;
   color: var(--title-text-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+@media screen and (max-width: 1199px) {
+  .title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
 }
 
 .overlay-hidden {
@@ -658,6 +665,13 @@ button {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .team__card-set {
   width: 100%;
   margin: 0 auto;
@@ -775,6 +789,13 @@ button {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .clients__list {

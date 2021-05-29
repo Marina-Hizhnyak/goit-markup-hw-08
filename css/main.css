@@ -1049,9 +1049,16 @@ button {
   padding-bottom: 94px;
 }
 
+@media screen and (max-width: 1199px) {
+  .portfolio {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
 .portfolio__list {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 56px;
   justify-content: center;
   padding: 0;
 }
@@ -1062,6 +1069,12 @@ button {
     justify-content: flex-start;
     flex-wrap: wrap;
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .portfolio__list {
+    margin-bottom: 36px;
   }
 }
 

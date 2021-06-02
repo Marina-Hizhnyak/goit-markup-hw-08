@@ -18,7 +18,7 @@
 }
 .burger__btn {
   margin-left: auto;
-  z-index: 20;
+  // z-index: 20;
 
   &:hover,
   &:focus {
@@ -27,7 +27,7 @@
 }
 
 .burger__btn {
-  z-index: 13;
+  // z-index: 13;
   background-color: transparent;
   border: none;
 
@@ -35,6 +35,7 @@
     position: fixed;
     right: 21px;
     top: 21px;
+    z-index: 20;
   }
 
   &:hover .burger__icon,
